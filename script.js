@@ -1,3 +1,15 @@
+// - The game starts when the user enters an answer in the input field and hits Enter.
+// - A countdown of 10 seconds begins, and the user has to answer as many questions as possible within this time.
+// - If the user enters the correct answer, the score increments by 1, and a new question is displayed.
+// - If the user's answer is incorrect or if the time is up, the game ends, and the score is shown.
+// - The user can keep playing by entering new answers, and the game will automatically reset if the time is up.
+// - The user can also restart the game by manually refreshing the page.
+// - The game keeps track of the time left and score and displays them on the screen.
+
+// --------------------------------------------------------------------------------------------
+
+
+
 $(document).ready(function(){
     var currentQuestion;
     var interval;
